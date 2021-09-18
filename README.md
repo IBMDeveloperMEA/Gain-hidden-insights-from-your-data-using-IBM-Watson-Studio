@@ -19,7 +19,11 @@ It should take you approximately 30 minutes to complete this tutorial.
 
 The following steps are required to complete all of the tutorials in this learning path.
 
-### Create IBM Cloud Object Storage service
+## Provision IBM Cloud services
+
+NOTE: This section discusses creating new services for your project. If you have previously provisioned any of these services, you can choose to use them instead of creating new ones.
+
+### Step 1. Create IBM Cloud Object Storage service
 
 An Object Storage service is required to create projects in Watson Studio. If you do not already have a storage service provisioned, complete the following steps:
 
@@ -35,15 +39,16 @@ An Object Storage service is required to create projects in Watson Studio. If yo
 
 4. Click Create.
 
-### Launch Watson Studio
+### Step 2. Create Watson Studio
 
-Launch Watson Studio, select an appropriate region (Dallas), and then enter the username name associated with your IBM Cloud account.
+1. Search for "Watson Studio", select an appropriate region (Dallas)give your service a name and click on Create.
 
-![studio-login](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/studio-login.png?raw=true)
+![studio-login](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/watson%20studio%201.png?raw=true)
+![studio-login](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/watson%20studio%202.png?raw=true)
 
 NOTE: You may notice that the “IBM Watson Studio” banner will in some cases be replaced with the name “IBM Cloud Pak for Data”. The banner used is dependent on the number and types of services you have created on your IBM Cloud account. The change will have no effect on how the service functions or is navigated.
 
-### Create Watson Studio project
+### Step 3. Create Watson Studio project
 
 In Watson Studio, we use the concept of a project to collect and organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
 
@@ -67,11 +72,8 @@ In Watson Studio, we use the concept of a project to collect and organize the re
 
 4. Click Create to finish creating the project.
 
-## Provision IBM Cloud services
 
-NOTE: This section discusses creating new services for your project. If you have previously provisioned any of these services, you can choose to use them instead of creating new ones.
-
-### Watson Machine Learning service
+### Step 4. Watson Machine Learning service
 
 To provision the Machine Learning service and associate it with the current project:
 
@@ -117,7 +119,8 @@ Note: If you have multiple Machine Learning services, make sure you select the o
 
 ![wml-service-added](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/wml-service-added.png?raw=true)
 
-### IBM Cognos Dashboard Embedded service
+
+### Step 5. IBM Cognos Dashboard Embedded service
 
 To provision the IBM Cognos Dashboard Embedded service and associate it with the current project:
 
@@ -145,11 +148,11 @@ To provision the IBM Cognos Dashboard Embedded service and associate it with the
 
 ![associated-services](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/associated-services.png?raw=true)
 
-### Upload data set
+### Step 6. Upload data set
 
 Use the following link to download the Customer Churn data from Kaggle to your local system.
 
-customer-churn-kaggle.csv
+Download the dataset from the "DataSet" Folder of this repository.
 Next, we will upload the file to Watson Studio.
 
 1. From your Watson Studio project panael, select Assets.
@@ -162,13 +165,14 @@ Next, we will upload the file to Watson Studio.
 
 4. Wait until the file has been uploaded.
 
+
 ## Background
 
 After completing the steps to setting up your environment, you can now focus on the main topic of this tutorial, which is all about data. You’ll learn how to visualize it, then prepare and transform it so that it can be used to build optimized high-quality predictive models.
 
-A classical data science approach to perform these activities is to use the Python programming language running in a Jupyter Notebook. While we cover this method later in the learning path tutorial Build models using Jupyter Notebooks in IBM Watson Studio, this tutorial focuses on alternative ways to achieve the same goal, using features and tools provided by Watson Studio, with no programming required.
+A classical data science approach to perform these activities is to use the Python programming language running in a Jupyter Notebook. This tutorial focuses on alternative ways to achieve the same goal, using features and tools provided by Watson Studio, with no programming required.
 
-## Basic visualization in Watson Studio
+### Step 7. Basic visualization in Watson Studio
 
 After data is collected, the next step is referred to as the data understanding phase. This consists of activities that enable you to become familiar with the data, identify data quality problems, and discover first insights into the data.
 
@@ -198,7 +202,7 @@ Notice that the churn parameter does not provide a balanced distribution of chur
 
 ![churn-values](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/churn-values.png?raw=true)
 
-## More visualizations using the Cognos Dashboard service
+### Step 8. More visualizations using the Cognos Dashboard service
 
 You can look further into the data set by creating a dashboard with associated visualizations. This basically requires three steps: creating an empty dashboard, adding a data source to be used for visualizations, and adding appropriate visualizations to the dashboard.
 
@@ -226,61 +230,61 @@ On the next page, select the default tabbed layout and template.
 
 4. Click OK to create an empty freeform dashboard with a single Tab.
 
-5. To add a data connection:
+### Step 9. Add  data connection
 
-  5.1. Click the Add a source button (the + icon) in the upper-left part of the page:
+ 1. Click the Add a source button (the + icon) in the upper-left part of the page:
 
 ![select-source](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/select-source.png?raw=true)
 
-  5.2. Click Select to select the customer churn data source.
+ 2. Click Select to select the customer churn data source.
 
 ![select-source-file](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/select-source-file.png?raw=true)
 
-  5.3. Back in the dashboard, select the newly imported data source.
+ 3. Back in the dashboard, select the newly imported data source.
 
-  5.4. Preview the data source by clicking the icon located at the bottom of the tab panel.
+4. Preview the data source by clicking the icon located at the bottom of the tab panel.
 
 ![show-churn-data](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/show-churn-data.png?raw=true)
 
-  5.5. Expand the customer churn data source by clicking > to show the columns.
+5. Expand the customer churn data source by clicking > to show the columns.
 
 ![data-source-columns](https://s3.us.cloud-object-storage.appdomain.cloud/developer/default/tutorials/watson-studio-data-visualization-preparation-transformation/images/data-source-columns.png)
 
 Notice that you can view and change the properties of the columns. Simply click the 3 dots to the right of the column name, then select Properties in the pop-up menu. This displays a window as shown above, and allows you to alter the default setting for Usage (Identifier, Attribute, and Measure) and Aggregate Function (Count, Count Distinct, Maximum, and Minimum). For now, you should be fine with the default settings.
 
-6. To create a visualization that shows the distribution of churns and no-churns as a pie chart:
+### Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart:
 
-  6.1. Select the Visualizations icon in the toolbar to the left.
+1. Select the Visualizations icon in the toolbar to the left.
 
-  6.2. Select a Pie chart.
+2. Select a Pie chart.
 
-  6.3. This creates a form for specifying the properties of the pie chart using, for example, columns of the data set.
+3. This creates a form for specifying the properties of the pie chart using, for example, columns of the data set.
 
 ![create-visualization](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/create-visualization.png?raw=true)
 
-  6.4. Select the Sources icon in the toolbar to the left (located above the Visualizations icon).
+4. Select the Sources icon in the toolbar to the left (located above the Visualizations icon).
 
-  6.5. Drag the churn column onto the Segments property of the pie chart.
+5. Drag the churn column onto the Segments property of the pie chart.
 
-  6.6. Drag the churn column onto the Size column of the pie chart.
+6. Drag the churn column onto the Size column of the pie chart.
 
 ![visualization-props](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/visualization-props.png?raw=true)
 
-Click the Collapse arrow in the upper right of the form, as shown above. This expands/collapses the pie chart on the dashboard.
+7. Click the Collapse arrow in the upper right of the form, as shown above. This expands/collapses the pie chart on the dashboard.
 
-Click the Fields tab to show/hide the selected visualization field values.
+8. Click the Fields tab to show/hide the selected visualization field values.
 
-Click the Edit the title button to add a title to our pie chart.
+9. Click the Edit the title button to add a title to our pie chart.
 
 ![initial-dashboard](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/initial-dashboard.png?raw=true)
 
-Provide a title for the tab (for example, ‘Customer Churn’).
+10. Provide a title for the tab (for example, ‘Customer Churn’).
 
-Follow these steps and create two more visualizations:
+11. Follow these steps and create two more visualizations:
 
-A Stacked column chart showing State (visualization field Bars) and Churn (visualization fields Length and Color) on the X and Y axis, respectively
+ 11.1. A Stacked column chart showing State (visualization field Bars) and Churn (visualization fields Length and Color) on the X and Y axis, respectively
 
-A Pie chart showing the distribution of the International Plan (visualization fields Segments and Size)
+ 11.2. A Pie chart showing the distribution of the International Plan (visualization fields Segments and Size)
 
 This should result in a dashboard similar to the following image. Notice that you can move visualizations on the dashboard using the Move widget command located on the top of each visualization.
 
@@ -294,7 +298,7 @@ Notice that the slice for churn in the visualization to the left has increased s
 
 NOTE: Click the Disk icon in the top menu bar to save your dashboard.
 
-Data preparation and transformation using Refine
+### Step 11. Data preparation and transformation using Refine
 
 The data preparation phase covers all activities needed to construct the final data set that is fed into the machine learning service. Data preparation tasks are likely to be performed multiple times and not in any prescribed order. Tasks include table, record, and attribute selection as well as transformation and cleansing of data for the modeling tools. This can involve turning categorical features into numerical ones, normalizing the features, and removing columns not relevant for prediction (for example, the phone number of the client).
 
@@ -302,15 +306,15 @@ If you would just like to create a model semi-automatically or fully automated u
 
 Alternatively, Watson Studio offers a service called Data Refine that lets you clean up and transform data without any programming. To run the service:
 
-Click Add to project in the top bar of the project overview page.
+1. Click Add to project in the top bar of the project overview page.
 
-In the Choose asset type window, select Data Refinery flow to create a new flow.
+2. In the Choose asset type window, select Data Refinery flow to create a new flow.
 
-On the next page, select the Customer Churn data set and click Add.
+3. On the next page, select the Customer Churn data set and click Add.
 
 ![data-refine-add-source](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/data-refine-add-source.png?raw=true)
 
-This opens the data source for you so that you can transform and view it.
+4. This opens the data source for you so that you can transform and view it.
 
 Note that you can also initiate the Data Refine service by clicking on Refine from the Preview panel of the data set.
 
@@ -322,35 +326,35 @@ The Data Refine service is then loaded and displays the following table.
 
 Notice the tabs to the top left, which let you view the data in a tabular form for profiling (as in the previous section) and for creating custom visualizations of the data.
 
-To transform the data:
+### Step 12. Transform the data
 
-Select the 3 dots in the “phone number” column and invoke the Remove command in the pull-down menu. This deletes the column.
+1. Select the 3 dots in the “phone number” column and invoke the Remove command in the pull-down menu. This deletes the column.
 
 ![remove-phone-num](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/remove-phone-num.png?raw=true)
 
-Select the total day minutes feature column. This is a really a String type but should be numeric.
+2. Select the total day minutes feature column. This is a really a String type but should be numeric.
 
-Click the Operation button in the upper-left corner, which shows you some available transformations.
+3. Click the Operation button in the upper-left corner, which shows you some available transformations.
 
 ![transform-operation](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/transform-operation.png?raw=true)
 
 You could convert the column to another type (say float or integer). However, we will not do this for now because the Machine Learning service does it for us automatically behind the scenes. But in principle, you could decide to turn the “total day minutes” column into an integer column and round it to show zero decimals. Alternatively, you could convert it into a floating type. For now, let’s just continue executing the flow just defined and view the result.
 
-Click on Steps to view the steps that will be performed during the refine process.
+4. Click on Steps to view the steps that will be performed during the refine process.
 
-Click the Run Data Refinery flow button in the toolbar. Its icon is an arrow.
+5. Click the Run Data Refinery flow button in the toolbar. Its icon is an arrow.
 
-Select the option to Save and create a job.
+6. Select the option to Save and create a job.
 
 ![save-and-create-job](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/save-and-create-job.png?raw=true)
 
-On the next page, you can name the flow and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “_shaped” suffix.
+7. On the next page, you can name the flow and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “_shaped” suffix.
 
-Click Next and accept the default values until reaching the final page. Notice that there is also a tab where you can schedule the flow so that it is executed automatically.
+8. Click Next and accept the default values until reaching the final page. Notice that there is also a tab where you can schedule the flow so that it is executed automatically.
 
 ![schedule-refine-job](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/schedule-refine-job.png?raw=true)
 
-Click Create and run.
+9. Click Create and run.
 The resulting window shows the run status.
 
 ![refine-job-status](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/refine-job-status.png?raw=true)
@@ -361,7 +365,7 @@ Go back to your project and check that the output file and the flow are now part
 
 If you click on the newly created flow asset, you see that the “phone number” column has been removed.
 
-Data Refinery Flows allow you to perform quick transformations of data without the need for programming. It is by no means a replacement for Jupyter Notebooks and the powerful capabilities of numpy and pandas, but for a quick clean-up process it comes in handy. For more complex transformations and computations, you should revert to using other options such as Jupyter Notebooks or SPSS Modeler flows (which will be covered in other tutorials included in this learning path).
+Data Refinery Flows allow you to perform quick transformations of data without the need for programming. It is by no means a replacement for Jupyter Notebooks and the powerful capabilities of numpy and pandas, but for a quick clean-up process it comes in handy. For more complex transformations and computations, you should revert to using other options such as Jupyter Notebooks or SPSS Modeler flows.
 
 Conclusion
 
