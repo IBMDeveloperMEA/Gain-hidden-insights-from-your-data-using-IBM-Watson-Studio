@@ -133,7 +133,7 @@ To provision the IBM Cognos Dashboard Embedded service and associate it with the
 
 5. On the next page, select New Service to create a new service. This should bring up the IBM Cognos Dashboard Embedded service tile.
 
-![cognos-tile]()
+![cognos-tile](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/cognos-tile.png?raw=true)
 
 6. Click the tile to provision your dashboard service.
 
@@ -143,7 +143,7 @@ To provision the IBM Cognos Dashboard Embedded service and associate it with the
 
 9. You should now have both services listed in the Associated services section of the Settings tab.
 
-![associated-services]()
+![associated-services](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/associated-services.png?raw=true)
 
 ### Upload data set
 
@@ -156,7 +156,7 @@ Next, we will upload the file to Watson Studio.
 
 2. If not already open, click the 1000 data icon at the upper right of the panel to open the Files sub-panel. Then, click Load.
 
-assets-load-data
+![assets-load-data](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/assets-load-data.png?raw=true)
 
 3. Drag the file to the drop area to upload the data into Watson Studio.
 
@@ -174,11 +174,11 @@ After data is collected, the next step is referred to as the data understanding 
 
 1. You can achieve this in Watson Studio by simple user interactions, without a single line of code. To view the data set in Watson Studio, locate the data asset and then click the name of the data set to open it.
 
-select-data-set
+![select-data-set](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/select-data-set.png?raw=true)
 
 2. Watson Studio shows you a preview of the data in the Preview tab.
 
-data-preview
+![data-preview](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/data-preview.png?raw=true)
 
 Alternatively, the Profile tab gives you profiling information that shows the distribution of the values. For numerical features, it also shows the maximum, minimum, mean, and standard deviation for the feature.
 
@@ -190,13 +190,13 @@ Alternatively, the Profile tab gives you profiling information that shows the di
 
   3.3. Wait a short while and then refresh the page.
 
-data-profile
+![data-profile](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/data-profile.png?raw=true)
 
 Notice that although the numerical columns are identified to be of type varchar, the profiler is smart enough to recognize these to be numerical columns, convert them implicitly, and compute the mean and the standard deviation.
 
 Notice that the churn parameter does not provide a balanced distribution of churn and no-churn observations. This might mean that you should adopt cross-validation strategies during the model building and evaluation phase.
 
-churn-values
+![churn-values](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/churn-values.png?raw=true)
 
 ## More visualizations using the Cognos Dashboard service
 
@@ -206,7 +206,7 @@ To create the dashboard:
 
 1. Click Add to project + and then select Dashboard to create a new dashboard.
 
-add-dashboard-to-project
+![add-dashboard-to-project](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/add-dashboard-to-project.png?raw=true)
 
 2. Follow these steps in the New Dashboard page:
 
@@ -216,13 +216,13 @@ add-dashboard-to-project
 
   2.3. For Cognos Dashboard Embedded Service, select the dashboard service that you created previously.
 
-create-dashboard
+![create-dashboard](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/create-dashboard.png?raw=true)
 
 3. Click Create.
 
 On the next page, select the default tabbed layout and template.
 
-free-form-diagram
+![free-form-diagram](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/free-form-diagram.png?raw=true)
 
 4. Click OK to create an empty freeform dashboard with a single Tab.
 
@@ -230,17 +230,17 @@ free-form-diagram
 
   5.1. Click the Add a source button (the + icon) in the upper-left part of the page:
 
-select-source
+![select-source](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/select-source.png?raw=true)
 
   5.2. Click Select to select the customer churn data source.
 
-select-source-file
+![select-source-file](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/select-source-file.png?raw=true)
 
   5.3. Back in the dashboard, select the newly imported data source.
 
   5.4. Preview the data source by clicking the icon located at the bottom of the tab panel.
 
-show-churn-data
+![show-churn-data](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/show-churn-data.png?raw=true)
 
   5.5. Expand the customer churn data source by clicking > to show the columns.
 
@@ -256,7 +256,7 @@ Notice that you can view and change the properties of the columns. Simply click 
 
   6.3. This creates a form for specifying the properties of the pie chart using, for example, columns of the data set.
 
-create-visualization
+![create-visualization](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/create-visualization.png?raw=true)
 
   6.4. Select the Sources icon in the toolbar to the left (located above the Visualizations icon).
 
@@ -264,7 +264,7 @@ create-visualization
 
   6.6. Drag the churn column onto the Size column of the pie chart.
 
-visualization-props
+![visualization-props](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/visualization-props.png?raw=true)
 
 Click the Collapse arrow in the upper right of the form, as shown above. This expands/collapses the pie chart on the dashboard.
 
@@ -272,7 +272,7 @@ Click the Fields tab to show/hide the selected visualization field values.
 
 Click the Edit the title button to add a title to our pie chart.
 
-initial-dashboard
+![initial-dashboard](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/initial-dashboard.png?raw=true)
 
 Provide a title for the tab (for example, ‘Customer Churn’).
 
@@ -284,11 +284,11 @@ A Pie chart showing the distribution of the International Plan (visualization fi
 
 This should result in a dashboard similar to the following image. Notice that you can move visualizations on the dashboard using the Move widget command located on the top of each visualization.
 
-final-dashboard
+![final-dashboard](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/final-dashboard.png?raw=true)
 
 The dashboards are dynamic by nature and support exploration of the data using filters. In the visualization that shows International Plan, click the slice associated with the value yes. This creates a filter that will apply to all other (connected) visualizations on the current dashboard.
 
-filtered-dashboard
+![filtered-dashboard](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/filtered-dashboard.png?raw=true)
 
 Notice that the slice for churn in the visualization to the left has increased significantly. This tells you that clients on an international plan are more likely to churn than clients that are not on an international plan. To remove the filter, click the filter icon for the visualization in the upper-right corner, then select the delete filter button that pops up (the icon is a cross in a circle). Clicking the slice again achieves the same effect.
 
@@ -308,17 +308,17 @@ In the Choose asset type window, select Data Refinery flow to create a new flow.
 
 On the next page, select the Customer Churn data set and click Add.
 
-data-refine-add-source
+![data-refine-add-source](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/data-refine-add-source.png?raw=true)
 
 This opens the data source for you so that you can transform and view it.
 
 Note that you can also initiate the Data Refine service by clicking on Refine from the Preview panel of the data set.
 
-start-refine
+![start-refine](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/start-refine.png?raw=true)
 
 The Data Refine service is then loaded and displays the following table.
 
-refine-data-set
+![refine-data-set](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/refine-data-set.png?raw=true)
 
 Notice the tabs to the top left, which let you view the data in a tabular form for profiling (as in the previous section) and for creating custom visualizations of the data.
 
@@ -326,13 +326,13 @@ To transform the data:
 
 Select the 3 dots in the “phone number” column and invoke the Remove command in the pull-down menu. This deletes the column.
 
-remove-phone-num
+![remove-phone-num](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/remove-phone-num.png?raw=true)
 
 Select the total day minutes feature column. This is a really a String type but should be numeric.
 
 Click the Operation button in the upper-left corner, which shows you some available transformations.
 
-transform-operation
+![transform-operation](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/transform-operation.png?raw=true)
 
 You could convert the column to another type (say float or integer). However, we will not do this for now because the Machine Learning service does it for us automatically behind the scenes. But in principle, you could decide to turn the “total day minutes” column into an integer column and round it to show zero decimals. Alternatively, you could convert it into a floating type. For now, let’s just continue executing the flow just defined and view the result.
 
@@ -342,22 +342,22 @@ Click the Run Data Refinery flow button in the toolbar. Its icon is an arrow.
 
 Select the option to Save and create a job.
 
-save-and-create-job
+![save-and-create-job](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/save-and-create-job.png?raw=true)
 
 On the next page, you can name the flow and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “_shaped” suffix.
 
 Click Next and accept the default values until reaching the final page. Notice that there is also a tab where you can schedule the flow so that it is executed automatically.
 
-schedule-refine-job
+![schedule-refine-job](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/schedule-refine-job.png?raw=true)
 
 Click Create and run.
 The resulting window shows the run status.
 
-refine-job-status
+![refine-job-status](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/refine-job-status.png?raw=true)
 
 Go back to your project and check that the output file and the flow are now part of your project assets. Remember, the new file has the added “_shaped” suffix.
 
-new-refine-flow-asset
+![new-refine-flow-asset](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/new-refine-flow-asset.png?raw=true)
 
 If you click on the newly created flow asset, you see that the “phone number” column has been removed.
 
