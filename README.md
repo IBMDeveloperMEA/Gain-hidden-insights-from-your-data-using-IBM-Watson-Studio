@@ -59,11 +59,11 @@ In Watson Studio, we use the concept of a project to collect and organize the re
 
 2. On the create project panel, you can either create an empty project, or import a file that contains project assets.
 
-create-empty-project
+![create-empty-project](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/project-create-options.png?raw=true)
 
 3. When creating a new project, you will need to provide a unique project name, and an object storage instance. For Storage, you should select the IBM Cloud Object Storage service you created in the previous step. If it is the only storage service that you have provisioned, it is assigned automatically.
 
-create-empty-project
+![create-empty-project](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/project-create-2.png?raw=true)
 
 4. Click Create to finish creating the project.
 
@@ -107,7 +107,7 @@ Note: Make sure you select the same region where your IBM Watson Studio instance
 
 10. Use the default Service Name or enter a unique name, then click Create. This will add the new service to your list of available services to associate.
 
-![wml-create-2]()
+![wml-create-2](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/wml-associate.png?raw=true)
 
 11. To associate the service with the project, click the checkbox next to the Watson Machine Learning service instance, then click Associate service.
 
