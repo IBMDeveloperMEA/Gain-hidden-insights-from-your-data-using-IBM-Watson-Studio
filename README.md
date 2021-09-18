@@ -1,21 +1,21 @@
 # Gain hidden insights from your data using IBM Watson Studio
 
 
-Introduction
+## Introduction
 
 The purpose of this tutorial is to demonstrate features within IBM® Watson™ Studio that help you visualize and gain insights into your data, then cleanse and transform your data to build high-quality predictive models.
 
-Prerequisites
+## Prerequisites
 
 To complete the tutorials in this learning path, you will need an IBM Cloud account, which gives you access to IBM Cloud, IBM Watson Studio, and the IBM Watson Machine Learning Service.
 
-Estimated time
+## Estimated time
 
 It should take you approximately 30 minutes to complete this tutorial.
 
-Steps
+## Steps
 
-Set up your environment
+### Set up your environment
 
 The following steps are required to complete all of the tutorials in this learning path.
 
