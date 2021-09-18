@@ -15,9 +15,6 @@ It should take you approximately 30 minutes to complete this tutorial.
 
 ## Steps
 
-### Set up your environment
-
-The following steps are required to complete all of the tutorials in this learning path.
 
 ## Provision IBM Cloud services
 
