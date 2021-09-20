@@ -2,7 +2,7 @@
 
 ## Workshop Resources
 
-- Login/Sign Up for IBM Cloud: https://ibm.biz/BdfpKw
+- Login/Sign Up for IBM Cloud: https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL[…]a75387465e10ea6f4-global-devadvgrp-dubai-hybrid-workshop-dubai
 
 - Hands-On Guide: https://github.com/IBMDeveloperMEA/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/README.md
 
