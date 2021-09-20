@@ -6,7 +6,7 @@
 
 - Hands-On Guide: https://github.com/IBMDeveloperMEA/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/README.md
 
-- Slides:
+- Slides: https://www.slideshare.net/AnamMahmood10/gain-hidden-insights-from-your-data-using-ibm-watson-studio
 
 - Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
 
