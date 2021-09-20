@@ -2,9 +2,9 @@
 
 ## Workshop Resources
 
-- Login/Sign Up for IBM Cloud:https://ibm.biz/BdfpKw
+- Login/Sign Up for IBM Cloud: https://ibm.biz/BdfpKw
 
-- Hands-On Guide:
+- Hands-On Guide: https://github.com/IBMDeveloperMEA/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/README.md
 
 - Slides:
 
