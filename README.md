@@ -2,13 +2,13 @@
 
 ## Workshop Resources
 
-Login/Sign Up for IBM Cloud:
+- Login/Sign Up for IBM Cloud:https://ibm.biz/BdfpKw
 
-Hands-On Guide:
+- Hands-On Guide:
 
-Slides:
+- Slides:
 
-Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
+- Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
 
 ## Table of Contents
 
