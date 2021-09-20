@@ -18,18 +18,18 @@
 2. [Prerequisites](#Prerequisites)
 3. [Estimated time](#Estimated-time)
 4. [Steps](#Steps)
-5. [Step 1. Create IBM Cloud Object Storage](https://github.com/IBMDeveloperMEA/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/README.md#step-1-create-ibm-cloud-object-storage-service)
-6. [Step 2. Create Watson Studio](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio#step-2-create-watson-studio)
-7. [Step 3. Create Watson Studio project](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio#step-3-create-watson-studio-project)
-8. [Step 4. Watson Machine Learning service](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio#step-4-watson-machine-learning-service)
-9. [Step 5. IBM Cognos Dashboard Embedded service](#Step-5.-IBM-Cognos-Dashboard-Embedded-service)
-10. [Step 6. Upload data set](#Step-6.-Upload-data-set)
-11. [Step 7. Basic visualization in Watson Studio](#Step-7.-Basic-visualization-in-Watson-Studio)
-12. [Step 8. More visualizations using the Cognos Dashboard service](#Step-8.-More-visualizations-using-the-Cognos-Dashboard-service)
-13. [Step 9. Add  data connection](#Step-9.Add-data-connection)
-14. [Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart](#Step-10.-Create-a-visualization-that-shows-the-distribution-of-churns-and-no-churns-as-a-pie-chart)
-15. [Step 11. Data preparation and transformation using Refine](#Step-11.-Data-preparation-and-transformation-using-Refine)
-16. [Step 12. Transform the data](#Step-12.-Transform-the-data)
+5. [Step 1. Create IBM Cloud Object Storage service](#Step-1-Create-IBM-Cloud-Object-Storage-service)
+6. [Step 2. Create Watson Studio](#Step-2-Create-Watson-Studio)
+7. [Step 3. Create Watson Studio project](#step-3-create-watson-studio-project)
+8. [Step 4. Watson Machine Learning service](#step-4-watson-machine-learning-service)
+9. [Step 5. IBM Cognos Dashboard Embedded service](#step-5-ibm-cognos-dashboard-embedded-service)
+10. [Step 6. Upload data set](#step-6-upload-data-set)
+11. [Step 7. Basic visualization in Watson Studio](#step-7-basic-visualization-in-watson-studio)
+12. [Step 8. More visualizations using the Cognos Dashboard service](#step-8-more-visualizations-using-the-cognos-dashboard-service)
+13. [Step 9. Add data connection](#step-9-add-data-connection)
+14. [Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart:](#step-10-create-a-visualization-that-shows-the-distribution-of-churns-and-no-churns-as-a-pie-chart-)
+15. [Step 11. Data preparation and transformation using Refine](#step-11-data-preparation-and-transformation-using-refine)
+16. [Step 12. Transform the data](#step-12-transform-the-data)
 17. [Conclusion](#Conclusion)
 
 ## Introduction
@@ -63,7 +63,7 @@ It should take you approximately 30 minutes to complete this tutorial.
 
 NOTE: This section discusses creating new services for your project. If you have previously provisioned any of these services, you can choose to use them instead of creating new ones.
 
-### Step 1. Create IBM Cloud Object Storage service
+### Step 1 Create IBM Cloud Object Storage service
 
 An Object Storage service is required to create projects in Watson Studio. If you do not already have a storage service provisioned, complete the following steps:
 
@@ -79,7 +79,7 @@ An Object Storage service is required to create projects in Watson Studio. If yo
 
 4. Click Create.
 
-### Step 2. Create Watson Studio
+### Step 2 Create Watson Studio
 
 1. Search for "Watson Studio", select an appropriate region (Dallas)give your service a name and click on Create.
 
@@ -407,7 +407,7 @@ If you click on the newly created flow asset, you see that the â€œphone numberâ€
 
 Data Refinery Flows allow you to perform quick transformations of data without the need for programming. It is by no means a replacement for Jupyter Notebooks and the powerful capabilities of numpy and pandas, but for a quick clean-up process it comes in handy. For more complex transformations and computations, you should revert to using other options such as Jupyter Notebooks or SPSS Modeler flows.
 
-Conclusion
+## Conclusion
 
 This tutorial covered some of the tools available in Watson Studio for visualizing, preparing, and transforming you data.
 
