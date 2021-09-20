@@ -18,7 +18,7 @@
 2. [Prerequisites](#Prerequisites)
 3. [Estimated time](#Estimated-time)
 4. [Steps](#Steps)
-5. [Step 1. Create IBM Cloud Object Storage](#Step-1.-Create-IBM-Cloud-Object-Storage)
+5. [Step 1. Create IBM Cloud Object Storage](https://github.com/IBMDeveloperMEA/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/README.md#step-1-create-ibm-cloud-object-storage-service)
 6. [Step 2. Create Watson Studio ](#Step-2.-Create-Watson-Studio)
 7. [Step 3. Create Watson Studio project](#Step-3.-Create-Watson-Studio-project)
 8. [Step 4. Watson Machine Learning service](#Step-4.-Watson-Machine-Learning-service)
