@@ -12,7 +12,7 @@
 
 ## Table of Contents
 
-Prerequisites
+1. [Introduction](#Introduction)
 Your title
 
 ## Introduction
