@@ -57,7 +57,7 @@ It should take you approximately 30 minutes to complete this tutorial.
 ## Steps
 
 
-## Provision IBM Cloud services
+### Provision IBM Cloud services
 
 NOTE: This section discusses creating new services for your project. If you have previously provisioned any of these services, you can choose to use them instead of creating new ones.
 
