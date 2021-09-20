@@ -2,18 +2,33 @@
 
 ## Workshop Resources
 
-Login/Sign Up for IBM Cloud:
+- Login/Sign Up for IBM Cloud: https://ibm.biz/BdfpKw
 
-Hands-On Guide:
+- Hands-On Guide: https://github.com/IBMDeveloperMEA/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/README.md
 
-Slides:
+- Slides:
 
-Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
+- Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
 
 ## Table of Contents
 
-Prerequisites
-Your title
+1. [Introduction](#Introduction)
+2. [Prerequisites](#Prerequisites)
+3. [Estimated time](#Estimated-time)
+4. [Steps](#Steps)
+5. [Step 1. Create IBM Cloud Object Storage](#Step-1.-Create-IBM-Cloud-Object-Storage)
+6. [Step 2. Create Watson Studio ](#Step-2.-Create-Watson-Studio)
+7. [Step 3. Create Watson Studio project](#Step-3.-Create-Watson-Studio-project)
+8. [Step 4. Watson Machine Learning service](#Step-4.-Watson-Machine-Learning-service)
+9. [Step 5. IBM Cognos Dashboard Embedded service](#Step-5.-IBM-Cognos-Dashboard-Embedded-service)
+10. [Step 6. Upload data set](#Step-6.-Upload-data-set)
+11. [Step 7. Basic visualization in Watson Studio](#Step-7.-Basic-visualization-in-Watson-Studio)
+12. [Step 8. More visualizations using the Cognos Dashboard service](#Step-8.-More-visualizations-using-the-Cognos-Dashboard-service)
+13. [Step 9. Add  data connection](#Step-9.Add-data-connection)
+14. [Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart](#Step-10.-Create-a-visualization-that-shows-the-distribution-of-churns-and-no-churns-as-a-pie-chart)
+15. [Step 11. Data preparation and transformation using Refine](#Step-11.-Data-preparation-and-transformation-using-Refine)
+16. [Step 12. Transform the data](#Step-12.-Transform-the-data)
+17. [Conclusion](#Conclusion)
 
 ## Introduction
 
@@ -21,7 +36,19 @@ The purpose of this tutorial is to demonstrate features within IBM® Watson™ S
 
 ## Prerequisites
 
-To complete the tutorials in this learning path, you will need an IBM Cloud account, which gives you access to IBM Cloud, IBM Watson Studio, and the IBM Watson Machine Learning Service.
+To complete the tutorial, you will need an IBM Cloud account, which gives you access to IBM Cloud, IBM Watson Studio, and the IBM Watson Machine Learning Service.
+
+### Sign-up/Login to IBM Cloud
+
+If you are an existing user please login to IBM Cloud
+
+And if you are not, don't worry! We have got you covered! There are 3 steps to create your account on IBM Cloud: 
+1. Put your email and password. 
+2. You get a verification link with the registered email to verify your account. 
+3. Fill the personal information fields. 
+** Please make sure you select the country you are in when asked at any step of the registration process.
+
+![SignUpToIBMCloud](https://user-images.githubusercontent.com/15332386/120156441-0769d980-c203-11eb-8cb3-29f4a8d5616a.png)
 
 ## Estimated time
 
@@ -30,7 +57,7 @@ It should take you approximately 30 minutes to complete this tutorial.
 ## Steps
 
 
-## Provision IBM Cloud services
+### Provision IBM Cloud services
 
 NOTE: This section discusses creating new services for your project. If you have previously provisioned any of these services, you can choose to use them instead of creating new ones.
 
@@ -241,7 +268,7 @@ On the next page, select the default tabbed layout and template.
 
 4. Click OK to create an empty freeform dashboard with a single Tab.
 
-### Step 9. Add  data connection
+### Step 9. Add data connection
 
  1. Click the Add a source button (the + icon) in the upper-left part of the page:
 
