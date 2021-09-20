@@ -94,11 +94,11 @@ In Watson Studio, we use the concept of a project to collect and organize the re
 
 1. To create a new project, you can either:
 
- 1.1. Click Create a project from the Watson Studio home page
+ - Click Create a project from the Watson Studio home page
 
 ![project-home-page](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/github-image-WS.png?raw=true)
 
-1.2. Or, click on Projects -> View all projects in the left-side navigation menu (☰), then click New project +
+- Or, click on Projects -> View all projects in the left-side navigation menu (☰), then click New project +
 
 ![menu-projects-list](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/github-image-ws-2.png?raw=true)
 
@@ -228,11 +228,11 @@ Alternatively, the Profile tab gives you profiling information that shows the di
 
 3. To generate the profile the first time:
 
-  3.1. Select the Profile tab.
+  - Select the Profile tab.
 
-  3.2. Invoke the Create Profile command.
+  - Invoke the Create Profile command.
 
-  3.3. Wait a short while and then refresh the page.
+  - Wait a short while and then refresh the page.
 
 ![data-profile](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/data-profile.png?raw=true)
 
@@ -254,11 +254,9 @@ To create the dashboard:
 
 2. Follow these steps in the New Dashboard page:
 
-  2.1. Enter a Name for the dashboard (for example, ‘customer-churn-dashboard’.)
-
-  2.2. Provide a Description for the dashboard (optional).
-
-  2.3. For Cognos Dashboard Embedded Service, select the dashboard service that you created previously.
+ - Enter a Name for the dashboard (for example, ‘customer-churn-dashboard’.)
+ - Provide a Description for the dashboard (optional).
+ - For Cognos Dashboard Embedded Service, select the dashboard service that you created previously.
 
 ![create-dashboard](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/create-dashboard.png?raw=true)
 
@@ -281,8 +279,7 @@ On the next page, select the default tabbed layout and template.
 ![select-source-file](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/select-source-file.png?raw=true)
 
  3. Back in the dashboard, select the newly imported data source.
-
-4. Preview the data source by clicking the icon located at the bottom of the tab panel.
+ 4. Preview the data source by clicking the icon located at the bottom of the tab panel.
 
 ![show-churn-data](https://github.com/Anam-Mahmood/Gain-hidden-insights-from-your-data-using-IBM-Watson-Studio/blob/main/images/show-churn-data.png?raw=true)
 
@@ -322,9 +319,9 @@ Notice that you can view and change the properties of the columns. Simply click 
 
 11. Follow these steps and create two more visualizations:
 
- 11.1. A Stacked column chart showing State (visualization field Bars) and Churn (visualization fields Length and Color) on the X and Y axis, respectively
+ - A Stacked column chart showing State (visualization field Bars) and Churn (visualization fields Length and Color) on the X and Y axis, respectively
 
- 11.2. A Pie chart showing the distribution of the International Plan (visualization fields Segments and Size)
+ - A Pie chart showing the distribution of the International Plan (visualization fields Segments and Size)
 
 This should result in a dashboard similar to the following image. Notice that you can move visualizations on the dashboard using the Move widget command located on the top of each visualization.
 
@@ -422,5 +419,11 @@ The remaining tutorials in this learning path discuss alternative ways to accomp
 
 ## Done with the workshop? Here are some things you can try further
 
-- 
+- Cognitive Class:
+ - Data Science Methodology: https://cognitiveclass.ai/courses/data-science-methodology-2
+ - Python for Data Science: https://cognitiveclass.ai/courses/python-for-data-science
+ 
+- Data visualization, preparation, and transformation using IBM Watson Studio: https://developer.ibm.com/tutorials/watson-studio-data-visualization-preparation-transformation/?mhsrc=ibmsearch_a&mhq=data%20visualization
+
+- Take control of your data with Watson Studio: https://developer.ibm.com/learningpaths/get-started-watson-studio/
 
