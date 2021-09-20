@@ -10,6 +10,8 @@
 
 - Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
 
+- Survey: https://ibm.biz/BdfpKk
+
 ## Table of Contents
 
 1. [Introduction](#Introduction)
@@ -412,3 +414,13 @@ This tutorial covered some of the tools available in Watson Studio for visualizi
 Topics included previewing and profiling your data assets, building a Cognos Dashboard to build more visualizations, and using the Data Refine Flow tool to perform data transformations
 
 The remaining tutorials in this learning path discuss alternative ways to accomplish these tasks as well as taking the next step, using the data to build and deploy predictive models. The next tutorial demonstrates the IBM Studio AutoAI experiment tool, which is a non-programmatic approach to creating, evaluating, deploying, and testing machine learning models.
+
+
+## Reference Links
+
+- https://developer.ibm.com/tutorials/watson-studio-data-visualization-preparation-transformation/?mhsrc=ibmsearch_a&mhq=data%20visualization
+
+## Done with the workshop? Here are some things you can try further
+
+- 
+
