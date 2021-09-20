@@ -61,7 +61,7 @@ It should take you approximately 30 minutes to complete this tutorial.
 
 NOTE: This section discusses creating new services for your project. If you have previously provisioned any of these services, you can choose to use them instead of creating new ones.
 
-### Step 1. Create IBM Cloud Object Storage service
+### Step 1 Create IBM Cloud Object Storage service
 
 An Object Storage service is required to create projects in Watson Studio. If you do not already have a storage service provisioned, complete the following steps:
 
@@ -77,7 +77,7 @@ An Object Storage service is required to create projects in Watson Studio. If yo
 
 4. Click Create.
 
-### Step 2. Create Watson Studio
+### Step 2 Create Watson Studio
 
 1. Search for "Watson Studio", select an appropriate region (Dallas)give your service a name and click on Create.
 
