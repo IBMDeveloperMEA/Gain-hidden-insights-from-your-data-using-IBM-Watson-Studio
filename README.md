@@ -36,7 +36,19 @@ The purpose of this tutorial is to demonstrate features within IBM® Watson™ S
 
 ## Prerequisites
 
-To complete the tutorials in this learning path, you will need an IBM Cloud account, which gives you access to IBM Cloud, IBM Watson Studio, and the IBM Watson Machine Learning Service.
+To complete the tutorial, you will need an IBM Cloud account, which gives you access to IBM Cloud, IBM Watson Studio, and the IBM Watson Machine Learning Service.
+
+### Sign-up/Login to IBM Cloud
+
+If you are an existing user please login to IBM Cloud
+
+And if you are not, don't worry! We have got you covered! There are 3 steps to create your account on IBM Cloud: 
+1- Put your email and password. 
+2- You get a verification link with the registered email to verify your account. 
+3- Fill the personal information fields. 
+** Please make sure you select the country you are in when asked at any step of the registration process.
+
+https://user-images.githubusercontent.com/15332386/120156441-0769d980-c203-11eb-8cb3-29f4a8d5616a.png
 
 ## Estimated time
 
