@@ -1,5 +1,19 @@
 # Gain hidden insights from your data using IBM Watson Studio
 
+## Workshop Resources
+
+Login/Sign Up for IBM Cloud:
+
+Hands-On Guide:
+
+Slides:
+
+Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
+
+## Table of Contents
+
+Prerequisites
+Your title
 
 ## Introduction
 
