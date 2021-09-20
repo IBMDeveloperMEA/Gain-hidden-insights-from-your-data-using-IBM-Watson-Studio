@@ -10,6 +10,8 @@
 
 - Workshop Replay: https://www.crowdcast.io/e/hidden-insights-data
 
+- Survey: https://ibm.biz/BdfpKk
+
 ## Table of Contents
 
 1. [Introduction](#Introduction)
