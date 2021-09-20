@@ -14,20 +14,20 @@
 
 1. [Introduction](#Introduction)
 2. [Prerequisites](#Prerequisites)
-3. [Estimated time](#Estimated time)
+3. [Estimated time](#Estimated-time)
 4. [Steps](#Steps)
-5. [Step 1. Create IBM Cloud Object Storage](#Step 1. Create IBM Cloud Object Storage)
-6. [Step 2. Create Watson Studio ](#Step 2. Create Watson Studio)
-7. [Step 3. Create Watson Studio project](#Step 3. Create Watson Studio project)
-8. [Step 4. Watson Machine Learning service](#Step 4. Watson Machine Learning service)
-9. [Step 5. IBM Cognos Dashboard Embedded service](#Step 5. IBM Cognos Dashboard Embedded service)
-10. [Step 6. Upload data set](#Step 6. Upload data set)
-11. [Step 7. Basic visualization in Watson Studio](#Step 7. Basic visualization in Watson Studio)
-12. [Step 8. More visualizations using the Cognos Dashboard service](#Step 8. More visualizations using the Cognos Dashboard service)
-13. [Step 9. Add  data connection](#Step 9. Add  data connection)
-14. [Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart](#Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart)
-15. [Step 11. Data preparation and transformation using Refine](#Step 11. Data preparation and transformation using Refine)
-16. [Step 12. Transform the data](#Step 12. Transform the data)
+5. [Step 1. Create IBM Cloud Object Storage](#Step-1.-Create-IBM-Cloud-Object-Storage)
+6. [Step 2. Create Watson Studio ](#Step-2.-Create-Watson-Studio)
+7. [Step 3. Create Watson Studio project](#Step-3.-Create-Watson-Studio-project)
+8. [Step 4. Watson Machine Learning service](#Step-4.-Watson-Machine-Learning-service)
+9. [Step 5. IBM Cognos Dashboard Embedded service](#Step-5.-IBM-Cognos-Dashboard-Embedded-service)
+10. [Step 6. Upload data set](#Step-6.-Upload-data-set)
+11. [Step 7. Basic visualization in Watson Studio](#Step-7.-Basic-visualization-in-Watson-Studio)
+12. [Step 8. More visualizations using the Cognos Dashboard service](#Step-8.-More-visualizations-using-the-Cognos-Dashboard-service)
+13. [Step 9. Add  data connection](#Step-9.Add-data-connection)
+14. [Step 10. Create a visualization that shows the distribution of churns and no-churns as a pie chart](#Step-10.-Create-a-visualization-that-shows-the-distribution-of-churns-and-no-churns-as-a-pie-chart)
+15. [Step 11. Data preparation and transformation using Refine](#Step-11.-Data-preparation-and-transformation-using-Refine)
+16. [Step 12. Transform the data](#Step-12.-Transform-the-data)
 17. [Conclusion](#Conclusion)
 
 ## Introduction
@@ -256,7 +256,7 @@ On the next page, select the default tabbed layout and template.
 
 4. Click OK to create an empty freeform dashboard with a single Tab.
 
-### Step 9. Add  data connection
+### Step 9. Add data connection
 
  1. Click the Add a source button (the + icon) in the upper-left part of the page:
 
